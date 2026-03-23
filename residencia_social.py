@@ -22,5 +22,5 @@ else:
     valor = consumos * 7.31
 
 
-print(f"O consumo de água de sua residência irá custar R$ {valor:.2f}")
+print(f"O consumo de água de sua residência social irá custar R$ {valor:.2f}")
 
