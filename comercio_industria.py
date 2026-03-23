@@ -5,22 +5,21 @@
 # Se o consumo for acima dos 50m3, então R$ 17,46 por m3
 
 
-aguaconsumop=float(input("Digite o consumo de aguá da redisência social em m3:"))
+consumop=float(input("Digite o consumo de aguá da redisência social em m3:"))
 
-if aguaconsumop <= pow(10, 3) :
-    print("O consumo de aguá de seu prédio irá custar R$ 44,95  por m3")
+if consumop <= pow(10, 3) :
+    valor= consumop * 44.95
 
-elif aguaconsumop <=  pow(20, 3) : 
-     print("O consumo de aguá de seu prédio irá custar R$ 8,75 por m3 ")
 
-elif aguaconsumop <=  pow(50, 3) : 
-     print("O consumo de aguá de seu prédio irá custar por R$ 16,76 m3 ")
+elif consumop <=  pow(20, 3) : 
+       valor= consumop * 8.75
 
-elif aguaconsumop <=  pow(40, 3) : 
-     print("O consumo de aguá de seu prédio irá custar R$6,62 por m3 ")
 
-elif aguaconsumop <=  pow(50, 3) : 
-     print("O consumo de aguá de seu prédio irá custar  R$7,31 m3 ")
+elif consumop <=  pow(50, 3) : 
+     valor= consumop * 16.76
+
 
 else:
-     print("Seu consumo não se enquadrada em nenhuma das váriaveis possíveis")   
+    valor= consumop * 17.46 
+
+print(f"O consumo de água de seu prédio irá custar R$ {valor:.2f}")
