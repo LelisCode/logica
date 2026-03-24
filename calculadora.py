@@ -1,3 +1,5 @@
+
+#Desenvolva um calculadora que receba dois números e efetue uma das seguintes operações aritméticas:
 import math
 
 n1 = float(input("Digite o primeiro número: "))
