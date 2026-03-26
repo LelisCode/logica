@@ -21,19 +21,19 @@ imc = p / (a ** 2)
 if imc < 16:
     classificacao = "Magreza grave"   #Váriaveil dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
 elif 16 <= imc < 17:
-    classificacao = "Magreza moderada"  #Váriaveil dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
+    classificacao = "Magreza moderada"
 elif 17 <= imc < 18.5:
-    classificacao = "Magreza leve"  #Váriaveil dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
+    classificacao = "Magreza leve" 
 elif 18.5 <= imc < 25:
-    classificacao = "Saudável"   #Váriaveil dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
+    classificacao = "Saudável"  
 elif 25 <= imc < 30:
-    classificacao = "Sobrepeso"   #Váriaveil dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
+    classificacao = "Sobrepeso"   
 elif 30 <= imc < 35:
-    classificacao = "Obesidade Grau I"  #Váriaveil dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
+    classificacao = "Obesidade Grau I" 
 elif 35 <= imc < 40:
-    classificacao = "Obesidade Grau II (severa)" #Váriaveil dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
+    classificacao = "Obesidade Grau II (severa)" 
 else:
-    classificacao = "Obesidade Grau III (mórbida)"  #Váriaveil dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
+    classificacao = "Obesidade Grau III (mórbida)"  
 
 #Saída
 print(f"Seu IMC é: {imc:.2f} {classificacao}")
