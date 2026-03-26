@@ -12,23 +12,32 @@
 # Se o usuário digitar uma opção diferente das apresentadas no menu, exibir 'Opção inválida!!!'
 # Exibir no final do processamento 'Fim do programa!'
 
-
+#Opções do usuário
 print("Opção 1")
 print("Opção 2")
 print("Opção 3")
 print("Sair")
 
+#Entrada
 o3 = input("Escolha uma opção: ")
 
-if o3 == "Opção 1":
-    print("Você selecionou a opção 1")
-elif o3 == "Opção 2":
-    print("Você selecionou a opção 2")    
-elif o3 == "Opção 3":
-    print("Você selecionou a opção 3")
-elif o3 == "Sair":
-    print("Você selecionou sair")  
-else:
-    print("Opção inválida!!!")
+#Processamento
 
-    print(f"Sua escolha foi: {o3}")
+if o3 == "Opção 1":
+
+    o4=("Você selecionou a opção 1") ##Váriavel de retorno lógico
+
+elif o3 == "Opção 2":
+
+    o4=("Você selecionou a opção 2")    ##Váriavel de retorno  lógico
+elif o3 == "Opção 3":
+
+    o4("Você selecionou a opção 3") ##Váriavel de retorno  lógico
+elif o3 == "Sair":
+
+    o4=("Você selecionou sair")   ##Váriavel de retorno  lógico
+else:
+    o4=("Opção inválida!!!") ##Váriavel de retorno  lógico
+
+#Saída
+    print(f"{o4}")
