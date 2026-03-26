@@ -11,7 +11,7 @@
 consumos = float(input("Digite o consumo de água da residência social em m3: "))
 
 #Processamento
-#Valores que utilixam o pow para estarem elevados ao número solicitado e comparadores para definir sua conta de acordo com o input do usuário
+#Valores que utilizam o pow para estarem elevados ao número solicitado e comparadores para definir sua conta de acordo com o input do usuário
 if consumos <= pow(10, 3):
     valor = consumos * 7.59
 elif consumos <= pow(20, 3): 
