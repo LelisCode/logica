@@ -1,7 +1,7 @@
 
 #Desenvolva um calculadora que receba dois números e efetue uma das seguintes operações aritméticas:
 import math
-
+#Entradas
 n1 = float(input("Digite o primeiro número: "))
 n2 = float(input("Digite o segundo número: "))
 print("Opções: +, -, *, /, **, raiz q, /2, impar")
@@ -9,8 +9,8 @@ escolha = input("")
 
 
  
-
-if escolha == "+":
+#Processamentos
+if escolha == "+":    ##Opções escolhidas pelo usuários para o resultado da conta
     r = n1 + n2
 elif escolha == "-":
     r = n1 - n2
@@ -28,4 +28,5 @@ elif escolha == "/2":
 elif escolha == "ímpar":
     r = f"n1 ímpar: {n1 % 2 != 0} | n2 ímpar: {n2 % 2 != 0}"
 
+#Saída
 print(f"Sua escolha foi: {escolha} e o resultado será: {r}")
