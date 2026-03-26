@@ -12,18 +12,18 @@ if rs <= 1000:
      p=("20%")
 
 elif rs <= 1700:
-     d= rs * 0.15  ####Váriavel dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
+     d= rs * 0.15 
      p=("15%")
 
 
 
 elif rs <= 2300:
-     d= rs * 0.10  ####Váriavel dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
+     d= rs * 0.10  
      p=("10%")
 
 
 else:
-     d= rs * 0.05  ####Váriavel dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
+     d= rs * 0.05  
      p=("5%")
 
 
