@@ -19,16 +19,16 @@ elif c >= 7.5:
     cl="B"
 
 elif c >= 6.0:
-     ar="Aprovado"         ####Váriaveis dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
+     ar="Aprovado"         
      cl="C"
 
 
 elif c >= 4.0:
-     ar="Reprovado"        ####Váriaveis dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
+     ar="Reprovado"      
      cl="D"
 
 else:
-     ar="Reprovado"   ####Váriaveis dentro de if,elif e else para que aja mais de um retorno dependendo do input do usuário
+     ar="Reprovado"   
      cl="F"
      
 
