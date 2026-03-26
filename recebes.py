@@ -1,3 +1,5 @@
+
+#Reajuste salarial.
 rs=float(input("Diga seu salário:"))
 
 if rs <= 1000:
