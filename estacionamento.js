@@ -6,7 +6,7 @@ let MS = parseInt(window.prompt("Em que minuto o senhor(a) saiu? (0-59):"));
 
 //Validação
 
-if (HE > 23 ||HE < 0 || HE > 59 || HE < 0 || HS > 23 || HS <0 || MS > 59 || MS < 0)
+if (HE > 23 ||HE < 0 || HE > 59 || HE < 0 || HS > 23 || HS <0 || MS > 59 || MS < 0 || Number.isNaN(HE) || Number.isNaN(HS) || Number.isNaN(ME) || Number.isNaN(MS))
 
  {  document.write("Valores inválidos!");
 }
